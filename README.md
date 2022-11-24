@@ -18,9 +18,9 @@ The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "S
 
 ## Authentication
 
-It is essential that data is only shared with authorised parties. This specification does not specify how authentication should be performed, but it is RECOMMENDED that the [OAuth 2.0](https://oauth.net/2/) protocol is used.
+It is essential that data is only shared with authorised parties.
 
-We reccomend that the `client_credentials` grant type is used, where the client ID and secret are provided in the request body. This is the simplest way to authenticate, and is suitable for machine-to-machine communication.
+We reccomend that the OAuth2 `client_credentials` grant type is used, where the client ID and secret are provided in the request body. This is the simplest way to authenticate, and is suitable for machine-to-machine communication.
 
 ## Privacy
 
